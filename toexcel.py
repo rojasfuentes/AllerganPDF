@@ -1,4 +1,4 @@
-from same import lote, clave, descripcion, cantidad, matches_noCliente, nombreCliente, ciudad_cliente, zipcodeCliente, colCliente, direccionCliente, consignatario, ciudad_consig, zipcodeConsig, colConsig, direccionConsig
+from same import matches_noCliente_list, nombreCliente_list, direccionCliente_list, colCliente_list, zipcodeCliente_list, ciudad_cliente_list, consignatario_list, direccionConsig_list, colConsig_list, ciudad_consig_list, zipcodeConsig_list, clave_list, descripcion_list, cantidad_list, lote_list
 
 import openpyxl
 
@@ -55,25 +55,26 @@ ws['F7'] = 'Ciudad'
 ws['G7'] = ciudad_consig
 
 
-#Datos producto
-ws['B11']='Clave'
-ws['C11']=clave
+# Datos producto
+ws['B11'] = 'Clave'
+ws['C11'] = clave
 
-ws['B12']='Lote'
-ws['C12']=lote
+ws['B12'] = 'Lote'
+ws['C12'] = lote
 
-ws['B13']='Cantidad'
-ws['C13']=cantidad
+ws['B13'] = 'Cantidad'
+ws['C13'] = cantidad
 
-ws['B14']='Descripción'
-ws['C14']=descripcion
+ws['B14'] = 'Descripción'
+ws['C14'] = descripcion
 
 # Ajustar el ancho de las columnas de forma automática
 for column_cells in ws.columns:
     column = column_cells[0].column
     adjusted_width = max(len(str(cell.value)) for cell in column_cells) + 2
     column_letter = openpyxl.utils.get_column_letter(column)
-    ws.column_dimensions[column_letter].width = adjusted_width # establece el ancho ajustado de la columna
+    # establece el ancho ajustado de la columna
+    ws.column_dimensions[column_letter].width = adjusted_width
 
 
 # Guardar el archivo de excel actualizado
