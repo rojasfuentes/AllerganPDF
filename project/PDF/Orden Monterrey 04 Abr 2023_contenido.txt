@@ -1,0 +1,24 @@
+Nota de Despacho
+1 de 1
+Orden de Compra
+Fecha de DespachoFecha de Solicitud
+No. Despacho
+Modo de Transp.
+Nombre de Transp.
+Código del Transp.06 Apr, 2023
+51060132704 Apr, 20232 CRE MLS TMS A7.
+Correo
+Consignatario
+DIANA LAURA SANCHEZ SANCHEZ 
+AV. VALLES N0. 203 COL. FLAMBOYANES 89330 TAMPICOCliente
+DIANA LAURA SANCHEZ SANCHEZ PROL AV MIGUEL HIDALGO 5503, C-510 FLAMBOYANES 89330 TAMPICONúmero de cliente
+59658438
+Instrucciones de Despacho Adicionales:Remitente Bodega
+7419
+Dirección del remitente
+La Prta 1110, Parque Industrial la Puerta 66367 Santa Catarina
+Línea Código / Descripción F. de Vencimiento HM (X) Cantidad Ord. U/M Cantidad Emb Lote
+10 92130ME            BOTOX 1 Vial (100 Units) A
+6EA 6C7788C3
+Fecha / HoraCantidad Total : 6 6
+Firma y sello del cliente (Por favor firme el nombre completo)
